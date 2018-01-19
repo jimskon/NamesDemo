@@ -1,17 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   NameMap.cpp
- * Author: skonjp
+/***************************************************************************
+ * NameMap.cpp - Object to store a map of all names and data about that name, 
+ * and allow insertion and and looking up of names.
+ *
+ * copyright : (C) 2018 by Jim Skon, Kenyon College
+ *
+ * This is part of a program create an index US Census name
+ * Data on the frequency of names in response to requestes.  
+ * It then allows you to look up any name, giving the 10 closest matches
  * 
- * Created on November 10, 2017, 11:42 PM
- */
-
-#include "NameMap.h"
+ ***************************************************************************/
+#include "NameMap.cpp"
 
 NameMap::NameMap(string filename) {
 

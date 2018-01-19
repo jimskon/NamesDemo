@@ -1,7 +1,7 @@
 /***************************************************************************
  * nameservercpp  -  Program to serve of last name statistics
  *
- * copyright : (C) 2009 by Jim Skon
+ * copyright : (C) 2018 by Jim Skon, Kenyon College
  *
  * This program create an index US Census name
  * Data on the frequency of names in response to requestes.  
@@ -48,7 +48,7 @@ int main() {
     /* See what user wants */
     do {
 
-        cout << "Select one: " << endl << "  1. Last name" << endl
+        cout << "Select one: " << endl << "  1. A Last name" << endl
                 << "  2. Female first names" << endl << "  3. Male First Names" << endl
                 << "  0. End Program." << endl << "Select:";
         cin >> sel;

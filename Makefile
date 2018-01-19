@@ -1,6 +1,6 @@
-#MakeFile to build  the Sample US CENSUS Name Data 
+# MakeFile to build the Sample US CENSUS Name Data lookup program 
 # For CSC3004 Software Development
-
+# C++ compiler to use
 CC= g++
 
 #For Optimization
