@@ -9,7 +9,7 @@
  * It then allows you to look up any name, giving the 10 closest matches
  * 
  ***************************************************************************/
-#include "NameMap.cpp"
+#include "NameMap.h"
 
 NameMap::NameMap(string filename) {
 
