@@ -7,7 +7,7 @@
  * Data on the frequency of names in response to requestes.  
  * It then allows you to look up any name, giving the 10 closest matches
  * 
- * 
+ * Demo for Class 2020
  *
  ***************************************************************************/
 #include <stdlib.h>
