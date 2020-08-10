@@ -21,7 +21,7 @@
 
 using namespace std;
 
-const string path = "/home/class/SoftDev/namedata/";
+const string path = "namedata/";
 const string lastFile = path+"dist.all.last";
 const string maleFile = path+"dist.male.first";
 const string femaleFile = path+"dist.female.first";

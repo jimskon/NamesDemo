@@ -1,6 +1,6 @@
 
 from sortedcontainers import SortedDict
-filePath="/home/class/SoftDev/namedata/"
+filePath="namedata/"
 
 class nameEntry:
   """
