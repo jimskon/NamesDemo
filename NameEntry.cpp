@@ -17,5 +17,16 @@ NameEntry::NameEntry() {
     rank = "";
 }
 
+NameEntry::NameEntry(string aName, string aPercent, string aCumulative, string aRank) {
+    name = aName; 
+    percent = aPercent; 
+    cumulative = aCumulative;
+    rank = aRank;
+}
+
+// Accessor
+NameEntry::getName() {
+    return name;
+}
 
 
