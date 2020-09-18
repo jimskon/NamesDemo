@@ -25,7 +25,7 @@ NameEntry::NameEntry(string aName, string aPercent, string aCumulative, string a
 }
 
 // Accessor
-NameEntry::getName() {
+string NameEntry::getName() {
     return name;
 }
 
