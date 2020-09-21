@@ -24,9 +24,5 @@ NameEntry::NameEntry(string aName, string aPercent, string aCumulative, string a
     rank = aRank;
 }
 
-// Accessor
-string NameEntry::getName() {
-    return name;
-}
 
 

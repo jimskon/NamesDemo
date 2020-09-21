@@ -18,11 +18,12 @@ using namespace std;
 
 class NameEntry {
 public:
-    NameEntry();
-    string name; // Last name
-    string percent; // Frequency of occurrence of a given name
-    string cumulative; // cumulative frequency of all name up to and including this name
-    string rank; // Rank of this Name in terms of frequency
+  NameEntry();
+  NameEntry(string aName, string aPercent, string aCumulative, string aRank);
+  string name; // Last name
+  string percent; // Frequency of occurrence of a given name
+  string cumulative; // cumulative frequency of all name up to and including this name
+  string rank; // Rank of this Name in terms of frequency
 private:
 
 };
